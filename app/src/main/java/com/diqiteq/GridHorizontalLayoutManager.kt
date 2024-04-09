@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class GridHorizontalLayoutManager(
     context: Context,
-    reverseLayout: Boolean = false,
+    reverseLayout: Boolean,
     private val rows: Int,
     private val columns: Int,
 ) : LinearLayoutManager(context, HORIZONTAL, reverseLayout) {
